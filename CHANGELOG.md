@@ -1,7 +1,12 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# retro-block-theme Changelog
+# Changelog
 
 ## [Unreleased]
-### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+
+## [0.0.1] - 2024-05-28
+
+- Initial color theme
+
+[Unreleased]: https://github.com/bitbyone/retro-block-theme/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/bitbyone/retro-block-theme/commits/v0.0.1
