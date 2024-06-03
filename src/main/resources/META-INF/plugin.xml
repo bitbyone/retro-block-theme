@@ -7,6 +7,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="bitby.one.retro-block-murky" path="/themes/retro-block-murky.theme.json" />
+        <themeProvider id="bitby.one.retro-block" path="/themes/retro-block.theme.json" />
     </extensions>
 </idea-plugin>
