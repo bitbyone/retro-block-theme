@@ -4,6 +4,7 @@
   "author": "Jan Tobola",
   "editorScheme": "/themes/retro-block.xml",
   "colors": {
+    "editorBg": "#262626",
     "bg": "#292929",
     "bg1": "#343434",
     "bg2": "#4f4b4b",
@@ -44,6 +45,11 @@
       "borderColor": "bg2",
       "disabledBorderColor": "bg1",
       "separatorColor": "bg2"
+    },
+    "Editor": {
+      "Tooltip": {
+        "background": "popupBg"
+      }
     },
     "Popup": {
       "background": "popupBg",
@@ -107,9 +113,9 @@
       }
     },
     "Table": {
-      "stripeColor": "bg3",
+      "stripeColor": "editorBg",
       "lightSelectionForeground": "fg1",
-      "lightSelectionBackground": "bg5",
+      "lightSelectionBackground": "selection",
       "lightSelectionInactiveBackground": "bg"
     },
     "FileColor": {
@@ -136,7 +142,7 @@
       },
       "Mac": {
         "hoverThumbColor": "bg4",
-        "thumbColor": "bg1"
+        "thumbColor": "bg2"
       }
     }
   },
