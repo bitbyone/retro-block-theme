@@ -47,7 +47,7 @@
       "separatorColor": "bg2"
     },
     "Editor": {
-      "Tooltip": {
+      "ToolTip": {
         "background": "popupBg"
       }
     },

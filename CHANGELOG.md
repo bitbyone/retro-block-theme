@@ -4,6 +4,11 @@
 
 ## [Unreleased]
 
+## [1.1.1] - 2024-07-20
+
+- Fixed misspelled UI theme key (Editor.ToolTip.background) 
+- Changed caret color to simple light gray
+
 ## [1.1.0] - 2024-07-20
 
 - Old UI fixes
@@ -29,7 +34,8 @@
 
 - Initial color theme
 
-[Unreleased]: https://github.com/bitbyone/retro-block-theme/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/bitbyone/retro-block-theme/compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/bitbyone/retro-block-theme/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/bitbyone/retro-block-theme/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/bitbyone/retro-block-theme/compare/v0.0.1...v1.0.0
 [0.0.1]: https://github.com/bitbyone/retro-block-theme/commits/v0.0.1
