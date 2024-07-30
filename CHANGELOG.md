@@ -4,6 +4,15 @@
 
 ## [Unreleased]
 
+## [1.2.0] - 2024-07-30
+
+- Updated various explicitly set background colors in language defaults to implicit values.
+- Database - Statement to execute, now has light green background instead of green border
+- Changed 'Identified under caret (write)' fg and bg colors to better match with other colors under different conditions (e.g. debug line color, diff colors, etc.)
+- New warnings background colors
+- Text search result colors tweaked a bit
+- `TabbedPane.focusColor` changed color to darker blue
+
 ## [1.1.1] - 2024-07-20
 
 - Fixed misspelled UI theme key (Editor.ToolTip.background) 
@@ -34,7 +43,8 @@
 
 - Initial color theme
 
-[Unreleased]: https://github.com/bitbyone/retro-block-theme/compare/v1.1.1...HEAD
+[Unreleased]: https://github.com/bitbyone/retro-block-theme/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/bitbyone/retro-block-theme/compare/v1.1.1...v1.2.0
 [1.1.1]: https://github.com/bitbyone/retro-block-theme/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/bitbyone/retro-block-theme/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/bitbyone/retro-block-theme/compare/v0.0.1...v1.0.0

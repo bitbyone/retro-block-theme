@@ -57,6 +57,9 @@
         "activeBackground": "bg"
       }
     },
+    "TabbedPane": {
+      "focusColor": "#3D4B5C"
+    },
     "Borders.color": "bg1",
     "CompletionPopup": {
       "matchForeground": "red",
