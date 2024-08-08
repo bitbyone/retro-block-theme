@@ -4,6 +4,8 @@
 
 ## [Unreleased]
 
+- Defined compatibility for all future releases
+
 ## [1.2.0] - 2024-07-30
 
 - Updated various explicitly set background colors in language defaults to implicit values.
