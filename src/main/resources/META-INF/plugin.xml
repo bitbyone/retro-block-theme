@@ -8,5 +8,15 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="bitby.one.retro-block" path="/themes/retro-block.theme.json" />
+        <themeProvider id="bitby.one.retro-block.mod0" path="/themes/retro-block-mod0.theme.json" />
+        <themeProvider id="bitby.one.retro-block.mod1" path="/themes/retro-block-mod1.theme.json" />
+        <themeProvider id="bitby.one.retro-block.mod2" path="/themes/retro-block-mod2.theme.json" />
+        <themeProvider id="bitby.one.retro-block.mod3" path="/themes/retro-block-mod3.theme.json" />
+        <themeProvider id="bitby.one.retro-block.mod4" path="/themes/retro-block-mod4.theme.json" />
+        <themeProvider id="bitby.one.retro-block.mod5" path="/themes/retro-block-mod5.theme.json" />
+        <themeProvider id="bitby.one.retro-block.mod6" path="/themes/retro-block-mod6.theme.json" />
+        <themeProvider id="bitby.one.retro-block.mod7" path="/themes/retro-block-mod7.theme.json" />
+        <themeProvider id="bitby.one.retro-block.mod8" path="/themes/retro-block-mod8.theme.json" />
+        <themeProvider id="bitby.one.retro-block.mod9" path="/themes/retro-block-mod9.theme.json" />
     </extensions>
 </idea-plugin>

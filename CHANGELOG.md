@@ -4,6 +4,17 @@
 
 ## [Unreleased]
 
+## [1.3.0] - 2024-10-19
+
+- Caret is brighter
+- Matched braces are less aggressive
+- Better injected code highlighting
+- Improved indent guide
+- Kotlin lambda braces and arrows are not bold anymore
+- Go templates delimiter improved
+- Python improvements
+- Introduced several new color variants (mods)
+
 ## [1.2.1] - 2024-08-08
 
 - Defined compatibility for all future releases
@@ -47,7 +58,8 @@
 
 - Initial color theme
 
-[Unreleased]: https://github.com/bitbyone/retro-block-theme/compare/v1.2.1...HEAD
+[Unreleased]: https://github.com/bitbyone/retro-block-theme/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/bitbyone/retro-block-theme/compare/v1.2.1...v1.3.0
 [1.2.1]: https://github.com/bitbyone/retro-block-theme/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/bitbyone/retro-block-theme/compare/v1.1.1...v1.2.0
 [1.1.1]: https://github.com/bitbyone/retro-block-theme/compare/v1.1.0...v1.1.1
