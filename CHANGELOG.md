@@ -4,6 +4,8 @@
 
 ## [Unreleased]
 
+## [1.2.1] - 2024-08-08
+
 - Defined compatibility for all future releases
 
 ## [1.2.0] - 2024-07-30
@@ -45,7 +47,8 @@
 
 - Initial color theme
 
-[Unreleased]: https://github.com/bitbyone/retro-block-theme/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/bitbyone/retro-block-theme/compare/v1.2.1...HEAD
+[1.2.1]: https://github.com/bitbyone/retro-block-theme/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/bitbyone/retro-block-theme/compare/v1.1.1...v1.2.0
 [1.1.1]: https://github.com/bitbyone/retro-block-theme/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/bitbyone/retro-block-theme/compare/v1.0.0...v1.1.0
