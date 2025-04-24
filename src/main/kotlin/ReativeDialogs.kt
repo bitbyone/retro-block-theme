@@ -1,14 +1,16 @@
 package one.bitby.retroblock.ui
 
 import com.intellij.ide.actions.BigPopupUI
-import com.intellij.ide.actions.Switcher
 import com.intellij.ide.actions.searcheverywhere.SearchAdapter
 import com.intellij.ide.actions.searcheverywhere.SearchEverywhereContributor
 import com.intellij.ide.actions.searcheverywhere.SearchEverywhereUI
-import com.intellij.ide.bookmark.ui.BookmarksView
+import com.intellij.notification.Notification
+import com.intellij.notification.NotificationType
+import com.intellij.notification.NotificationsManager
 import com.intellij.openapi.options.newEditor.SettingsEditor
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.startup.ProjectActivity
+import com.intellij.openapi.wm.IdeFrame
 import java.awt.*
 import java.awt.event.HierarchyEvent
 import javax.swing.JDialog
@@ -54,6 +56,7 @@ class RelativeDialogs {
                                     win.revalidate()
                                 }
                             }
+                            component.removeSearchListener(this)
                         }
                     })
                     findParentOfType<Window>(component)?.let { win ->
@@ -82,9 +85,17 @@ class RelativeDialogs {
                     }
                     return@addAWTEventListener
                 }
-                if (component is Switcher.SwitcherPanel) {
+                if (component::class.java.name.contains("Switcher\$SwitcherPanel")) {
                     val bounds = event.changedParent.bounds.percent(50, 70)
-                    findParentOfType<Window>(component)?.let { win ->
+//                    NotificationsManager.getNotificationsManager().showNotification(
+//                        Notification(
+//                            "retroblock",
+//                            "Modal debug",
+//                            component::class.java.name,
+//                            NotificationType.INFORMATION
+//                        ), null
+//                    )
+                    findParentOfType<Window>(component as Component)?.let { win ->
                         SwingUtilities.invokeLater {
                             component.preferredSize = bounds.size
                             component.bounds = bounds
@@ -94,9 +105,10 @@ class RelativeDialogs {
                     }
                     return@addAWTEventListener
                 }
-                if (component is BookmarksView) {
+                if (component::class.java.name.contains("Bookmark")) {
                     val bounds = event.changedParent.bounds.percent(70, 85)
-                    findParentOfType<Window>(component)?.let { win ->
+                    findParentOfType<Window>(component as Component)?.let { win ->
+                        if (win is IdeFrame) return@addAWTEventListener
                         SwingUtilities.invokeLater {
                             component.preferredSize = bounds.size
                             component.bounds = bounds
