@@ -1,4 +1,7 @@
-.gradle
-.idea
-.qodana
-build
+.gradle/
+build/
+.intellijPlatform/
+.idea/
+.kotlin/
+*.iml
+out/
