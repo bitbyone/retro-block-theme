@@ -4,6 +4,17 @@
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-03-29
+
+### Added
+- New "Retro Block Islands" theme variant with support for the Islands UI
+
+### Changed
+- Consolidated all color variants (mod0-mod9, high contrast) into a single "Retro Block Base" theme
+- Rounded corners throughout the UI
+- Refined editor color scheme with improved syntax highlighting
+- Checkboxes now use the theme's golden accent color instead of default blue
+
 ## [1.3.0] - 2024-10-19
 
 - Caret is brighter
@@ -58,7 +69,8 @@
 
 - Initial color theme
 
-[Unreleased]: https://github.com/bitbyone/retro-block-theme/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/bitbyone/retro-block-theme/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/bitbyone/retro-block-theme/compare/v1.3.0...v2.0.0
 [1.3.0]: https://github.com/bitbyone/retro-block-theme/compare/v1.2.1...v1.3.0
 [1.2.1]: https://github.com/bitbyone/retro-block-theme/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/bitbyone/retro-block-theme/compare/v1.1.1...v1.2.0
