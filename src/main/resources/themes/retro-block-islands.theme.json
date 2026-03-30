@@ -21,8 +21,6 @@
     "blue1": "#a5d0c0"
   },
   "ui": {
-    "Island.borderColor": "bg1",
-
     "*": {
       "background": "bg",
       "foreground": "fg",
@@ -43,6 +41,8 @@
       "separatorColor": "bg2"
     },
 
+    "Island.borderColor": "#00000000",
+
     "MainWindow.background": "popupBg",
 
     "StatusBar.borderColor": "#00000000",
@@ -61,10 +61,13 @@
 
     "Popup": {
       "background": "popupBg",
+      "borderColor": "#00000000",
       "Header": {
         "activeBackground": "bg"
       }
     },
+
+    "Dialog.borderColor": "#00000000",
 
     "TabbedPane": {
       "focusColor": "#424d5b"
@@ -73,6 +76,7 @@
     "Borders.color": "bg1",
 
     "CompletionPopup": {
+      "borderColor": "#00000000",
       "matchForeground": "red",
       "selectionBackground": "#4f3333"
     },
